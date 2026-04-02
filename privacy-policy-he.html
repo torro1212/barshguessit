@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מדיניות פרטיות - ברש מנחש!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            direction: rtl;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .effective-date {
+            text-align: center;
+            color: #888;
+            font-size: 0.95em;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h3 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-right: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #764ba2;
+            font-weight: 600;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        a:hover {
+            border-bottom-color: #667eea;
+        }
+
+        .highlight-box {
+            background: #f8f9ff;
+            border-right: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .contact-box {
+            background: #fff4e6;
+            border: 2px solid #ffa726;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .contact-box h2 {
+            color: #f57c00;
+            margin-top: 0;
+            border: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>מדיניות פרטיות</h1>
+        <div class="subtitle"><strong>ברש מנחש!</strong></div>
+        <div class="effective-date"><strong>תאריך עדכון:</strong> 30 במרץ, 2026</div>
+
+        <div class="highlight-box">
+            <p><strong>ברוכים הבאים ל"ברש מנחש!"</strong> ("האפליקציה"). מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים ומגנים על מידע כאשר אתם או ילדכם משתמשים באפליקציה שלנו. האפליקציה מיועדת לילדים בגילאי <strong>3-5</strong> ועומדת במלואה בדרישות חוק הגנת הפרטיות המקוון לילדים האמריקאי (COPPA).</p>
+        </div>
+
+        <h2>1. מידע שאנו אוספים</h2>
+
+        <h3>נתוני התקדמות במשחק (נשמרים מקומית)</h3>
+        <ul>
+            <li>שם השחקן והדמות שנבחרה</li>
+            <li>העדפת שפה (אנגלית או עברית)</li>
+            <li>שלבים שהושלמו ומדבקות שנאספו</li>
+            <li>עולמות וגביעים שנפתחו</li>
+            <li>התקדמות נוכחית במשחק</li>
+        </ul>
+
+        <p>כל התקדמות המשחק נשמרת <strong>מקומית במכשיר שלכם</strong> באמצעות AsyncStorage. אנחנו <strong>לא מעבירים</strong> נתונים אלה לשרת כלשהו.</p>
+
+        <h3>מזהה מכשיר (למטרות פרסום)</h3>
+        <ul>
+            <li><strong>iOS:</strong> מזהה פרסום (IDFA) - נאסף רק אם אתם מאשרים באמצעות App Tracking Transparency (ATT). עבור ילדים מתחת לגיל 13, הודעת ה-ATT לא תוצג בהתאם לדרישות COPPA.</li>
+            <li><strong>Android:</strong> Advertising ID - משמש את Google AdMob להצגת פרסומות.</li>
+        </ul>
+
+        <h3>נתוני שימוש (לניתוח סטטיסטי)</h3>
+        <ul>
+            <li>סוג מכשיר וגרסת מערכת הפעלה</li>
+            <li>גרסת האפליקציה</li>
+            <li>נתוני אינטראקציה עם פרסומות (חשיפות, קליקים) - מטופלים אוטומטית על ידי Google AdMob</li>
+        </ul>
+
+        <h2>2. כיצד אנו משתמשים במידע שלכם</h2>
+        <ul>
+            <li><strong>תכונות משחק:</strong> שמירת ההתקדמות, עולמות שנפתחו ומדבקות שנאספו מקומית במכשיר שלכם</li>
+            <li><strong>פרסום:</strong> הצגת פרסומות מותאמות לילדים, לא מותאמות אישית, באמצעות Google AdMob</li>
+            <li><strong>ניתוח סטטיסטי:</strong> הבנת דפוסי שימוש באפליקציה באמצעות אנליטיקס אנונימי של AdMob</li>
+        </ul>
+
+        <h2>3. App Tracking Transparency (iOS בלבד)</h2>
+
+        <p>בהתאם ל-<strong>COPPA</strong>, האפליקציה <strong>לא מציגה</strong> את תיבת הדו-שיח של App Tracking Transparency (ATT) לילדים. כל הפרסומות המוצגות הן לא-מותאמות אישית ומכוונות לילדים כברירת מחדל.</p>
+
+        <p>אם App Store של אפל קובע שהמשתמש הוא מבוגר (למשל, על סמך תאריך הלידה של Apple ID), הודעת ה-ATT עשויה להופיע, אך זה נדיר עבור אפליקציות המיועדות לילדים צעירים.</p>
+
+        <h2>4. שירותי צד שלישי</h2>
+
+        <h3>Google AdMob</h3>
+        <ul>
+            <li><strong>מטרה:</strong> הצגת פרסומות באנר, אינטרסטיציאליות ווידאו עם תגמולים</li>
+            <li><strong>מדיניות פרטיות:</strong> <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+            <li>כל הפרסומות מסומנות כ<strong>מכוונות לילדים</strong> ו<strong>לא מותאמות אישית</strong></li>
+        </ul>
+
+        <p>אנחנו <strong>לא מוכרים</strong> את המידע האישי של ילדכם לצד שלישי כלשהו.</p>
+
+        <h2>5. מטבע וירטואלי ורכישות</h2>
+
+        <p>האפליקציה <strong>אינה מכילה רכישות בתוך האפליקציה</strong> ו<strong>אין עסקאות בכסף אמיתי</strong>. פתיחת עולמות מתבצעת באמצעות משחק או צפייה בפרסומות וידאו עם תגמולים.</p>
+
+        <h2>6. פרטיות ילדים (עמידה ב-COPPA)</h2>
+
+        <p><strong>"ברש מנחש!"</strong> מיועדת לילדים בגילאי <strong>3-5</strong>. אנו עומדים במלואם בדרישות חוק הגנת הפרטיות המקוון לילדים (COPPA):</p>
+
+        <ul>
+            <li>אנו <strong>לא דורשים</strong> מילדים לספק מידע אישי כדי לשחק</li>
+            <li>אנו <strong>לא אוספים</strong> מידע אישי במודע מילדים</li>
+            <li>כל הפרסומות הן <strong>לא מותאמות אישית</strong> ומכוונות לילדים</li>
+            <li>התקדמות המשחק נשמרת <strong>מקומית בלבד</strong> (לא בשרתים)</li>
+            <li>ללא חשבונות משתמש, ללא התחברות, ללא סנכרון ענן</li>
+        </ul>
+
+        <p>אם אתם הורה ומאמינים שילדכם סיפק מידע אישי דרך האפליקציה, אנא צרו איתנו קשר מיד בכתובת <a href="mailto:barsbuildme@gmail.com">barsbuildme@gmail.com</a> ונטפל בבעיה.</p>
+
+        <h2>7. שמירה ומחיקת מידע</h2>
+
+        <p>כל נתוני המשחק נשמרים מקומית במכשיר שלכם ולעולם לא נשלחים לשרתים שלנו. כדי למחוק את כל הנתונים:</p>
+
+        <ul>
+            <li>הסירו את האפליקציה מהמכשיר שלכם</li>
+            <li>פעולה זו תמחק לצמיתות את כל התקדמות המשחק, המדבקות והעולמות שנפתחו</li>
+        </ul>
+
+        <h2>8. הזכויות שלכם (זכויות הורים)</h2>
+
+        <p>כהורה או אפוטרופוס, יש לכם את הזכות:</p>
+
+        <ul>
+            <li><strong>לעיין</strong> באיזה מידע נשמר (כל המידע מקומי במכשיר)</li>
+            <li><strong>למחוק</strong> את מידע ילדכם (על ידי הסרת האפליקציה)</li>
+            <li><strong>לסרב</strong> לאסוף מידע (האפליקציה עדיין תעבוד; רק הפרסומות עשויות להיות מושפעות)</li>
+            <li><strong>ליצור קשר</strong> עם כל דאגה בנושא פרטיות בכתובת barsbuildme@gmail.com</li>
+        </ul>
+
+        <h2>9. אבטחה</h2>
+
+        <ul>
+            <li>נתוני המשחק נשמרים מקומית באמצעות הצפנת AsyncStorage בתקן התעשייתי</li>
+            <li>אנחנו לא משדרים מידע אישי לשרתים</li>
+            <li>חיבורי AdMob משתמשים בהצפנת HTTPS/TLS מאובטחת</li>
+        </ul>
+
+        <h2>10. שינויים במדיניות זו</h2>
+
+        <p>אנו עשויים לעדכן את מדיניות הפרטיות מעת לעת. שינויים משמעותיים ישתקפו ב"תאריך עדכון" בראש עמוד זה. המשך שימוש באפליקציה לאחר שינויים מהווה הסכמה למדיניות המעודכנת.</p>
+
+        <div class="contact-box">
+            <h2>11. צור קשר</h2>
+            <p><strong>מפתח:</strong> שחר סוסמן</p>
+            <p><strong>אימייל:</strong> <a href="mailto:barsbuildme@gmail.com">barsbuildme@gmail.com</a></p>
+            <p><strong>אפליקציה:</strong> ברש מנחש!</p>
+        </div>
+
+        <div class="footer">
+            <p><em>© 2026 ברש מנחש! · כל הזכויות שמורות</em></p>
+            <p style="margin-top: 10px;">
+                <a href="privacy-policy.html">English Version</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
